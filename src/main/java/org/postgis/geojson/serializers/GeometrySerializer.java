@@ -2,14 +2,7 @@ package org.postgis.geojson.serializers;
 
 import java.io.IOException;
 
-import org.postgis.Geometry;
-import org.postgis.GeometryCollection;
-import org.postgis.LineString;
-import org.postgis.MultiLineString;
-import org.postgis.MultiPoint;
-import org.postgis.MultiPolygon;
-import org.postgis.Polygon;
-import org.postgis.Point;
+import net.postgis.jdbc.geometry.*;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.core.JsonProcessingException;

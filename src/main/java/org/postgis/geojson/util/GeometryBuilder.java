@@ -3,7 +3,7 @@ package org.postgis.geojson.util;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.postgis.*;
+import net.postgis.jdbc.geometry.*;
 
 public class GeometryBuilder {
     public static final int DEFAULT_SRID = 4326;

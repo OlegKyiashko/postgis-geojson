@@ -13,15 +13,7 @@ import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.deser.std.StdDeserializer;
 
-import org.postgis.Geometry;
-import org.postgis.GeometryCollection;
-import org.postgis.LineString;
-import org.postgis.LinearRing;
-import org.postgis.MultiLineString;
-import org.postgis.MultiPoint;
-import org.postgis.MultiPolygon;
-import org.postgis.Point;
-import org.postgis.Polygon;
+import net.postgis.jdbc.geometry.*;
 
 import static org.postgis.geojson.GeometryTypes.*;
 

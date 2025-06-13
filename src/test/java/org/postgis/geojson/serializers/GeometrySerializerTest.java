@@ -4,15 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.module.SimpleModule;
 import org.junit.Before;
 import org.junit.Test;
-import org.postgis.Geometry;
-import org.postgis.GeometryCollection;
-import org.postgis.LineString;
-import org.postgis.LinearRing;
-import org.postgis.MultiLineString;
-import org.postgis.MultiPoint;
-import org.postgis.MultiPolygon;
-import org.postgis.Point;
-import org.postgis.Polygon;
+import net.postgis.jdbc.geometry.*;
 import org.postgis.geojson.util.GeometryBuilder;
 import org.skyscreamer.jsonassert.JSONAssert;
 

@@ -1,9 +1,9 @@
 # postgis-geojson
-[![Release](https://img.shields.io/github/release/GeosatCO/postgis-geojson.svg?label=JitPack)](https://jitpack.io/#GeosatCO/postgis-geojson)
+[![Release](https://img.shields.io/github/release/OlegKyiashko/postgis-geojson.svg?label=JitPack)](https://jitpack.io/#OlegKyiashko/postgis-geojson)
 
 GeoJSON Jackson Serializers and Deserializers for PostGIS Geometry objects.
 
-Note: this is a fork from https://github.com/mayconbordin/postgis-geojson with updated dependencies, and improvements from https://github.com/sdeleuze/postgis-geojson
+Note: this is a fork from https://github.com/GeosatCO/postgis-geojson with updated dependencies
 
 ## GeoJSON Support
 
@@ -37,7 +37,7 @@ Then add the dependency to your `pom.xml` file:
 
 ```xml
 <dependency>
-  <groupId>com.github.GeosatCO</groupId>
+  <groupId>com.github.Oleg.Kyiashko</groupId>
   <artifactId>postgis-geojson</artifactId>
   <version>1.6</version>
 </dependency>

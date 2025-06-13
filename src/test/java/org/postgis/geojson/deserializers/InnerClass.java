@@ -1,6 +1,6 @@
 package org.postgis.geojson.deserializers;
 
-import org.postgis.MultiLineString;
+import net.postgis.jdbc.geometry.*;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
